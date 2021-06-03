@@ -20,6 +20,11 @@ body {
   opacity: 1;
 }
 
+@font-face {
+  font-family: Poiret One;
+  src: url(fonts/PoiretOne-Regular.ttf);
+}
+
 .one {
   text-align: center;
 }

@@ -12,6 +12,11 @@ body {
   opacity: 1;
 }
 
+@font-face {
+  font-family: Poiret One;
+  src: url(fonts/PoiretOne-Regular.ttf);
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");
 .one {
   text-align: center;
