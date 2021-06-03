@@ -1,0 +1,620 @@
+body {
+  margin: 0%;
+  background-color: rgb(0, 10, 20);
+}
+.reveal {
+  position: relative;
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");
+.one {
+  text-align: center;
+  .text {
+    text-align: center;
+    position: absolute;
+    border: 3px solid #cccccc;
+    color: #ece9e9;
+    font-family: Poiret One;
+    font-weight: bolder;
+    font-size: 95px;
+    transform: translate(95%, 30%);
+    padding: 0 62px 0px 62px;
+    // opacity: 90%;
+  }
+
+  a.sub-t {
+    text-decoration: none;
+    color: rgb(8, 9, 14);
+  }
+  .title {
+    // border: 1px solid black;
+    position: relative;
+    z-index: 999;
+    transform: translate(7%, 1670%);
+    text-align: center;
+    background-color: #d4d1d1;
+    margin-left: 22em;
+    margin-right: 23em;
+    letter-spacing: 0.4px;
+    font-family: "Poiret One";
+    font-size: 25px;
+    span {
+      font-size: 26px;
+      // font-family: "Rochester", cursive;
+      font-family: "Rochester", cursive;
+    }
+  }
+  .title:hover {
+    background: whitesmoke;
+  }
+
+  a.cont {
+    position: absolute;
+    z-index: 999;
+    color: #d4d1d1;
+    font-family: "Poiret One";
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 13em;
+    margin-left: -2.7em;
+    margin-top: -0.5em;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+  }
+
+  .bgvideo {
+    margin-top: -10em;
+    width: 100%;
+    z-index: -3;
+    background-attachment: fixed;
+    background-repeat: repeat;
+  }
+  .planet1 {
+    position: absolute;
+    padding-top: -82em;
+    transform: translate(1710%, 94%);
+    width: 04vw;
+    opacity: 85%;
+    mix-blend-mode: screen;
+    animation: fl1 895s infinite linear;
+  }
+  .planet2 {
+    margin-top: -33em;
+    transform: translate(210%, 124%);
+    width: 30vw;
+    opacity: 85%;
+    mix-blend-mode: screen;
+    animation: fl1 895s infinite linear;
+  }
+  .planet3 {
+    margin-top: -33em;
+    transform: translate(-200%, 174%);
+    width: 10vw;
+    animation: fl1 895s linear;
+  }
+  .planet4 {
+    margin-top: -33em;
+    transform: translate(-350%, 174%);
+    width: 5vw;
+    opacity: 85%;
+    mix-blend-mode: screen;
+    animation: fl1 895s infinite linear;
+  }
+  .planet5 {
+    margin-top: -33em;
+    transform: translate(-1600%, 874%);
+    width: 3vw;
+    opacity: 85%;
+    mix-blend-mode: screen;
+    animation: fl1 895s infinite linear;
+  }
+  .planet6 {
+    margin-top: -83em;
+    transform: translate(-4000%, 2574%);
+    width: 1vw;
+    opacity: 85%;
+    mix-blend-mode: screen;
+    animation: fl1 895s infinite linear;
+  }
+
+  @keyframes fl1 {
+    70% {
+      transform: rotate(-1deg);
+    }
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.two {
+  margin-top: 10em;
+  margin-left: 14em;
+
+  li {
+    list-style: none;
+  }
+  a.home {
+    position: fixed;
+    z-index: 999;
+    color: #cccccc;
+    font-family: "Poiret One";
+    // margin-left: 495em;
+    font-weight: bold;
+    height: 100px;
+    top: 0.5em;
+    right: 1em;
+    font-size: 25px;
+    text-decoration: none;
+    mix-blend-mode: difference;
+  }
+  a.enjae {
+    position: fixed;
+    z-index: 999;
+    color: #cccccc;
+    font-family: Poiret One;
+    text-decoration: none;
+    margin-bottom: -11em;
+    font-weight: bolder;
+    // margin-left: 495em;
+    height: 100px;
+    top: 0.5em;
+    left: 1em;
+    mix-blend-mode: difference;
+    font-size: 25px;
+  }
+  a.about-me,
+  .git,
+  .illu,
+  .merch {
+    text-align: left;
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 90px;
+    font-family: "Prompt", sans-serif;
+    font-weight: bold;
+    transform-origin: left;
+    transform: scaleX(0);
+  }
+  a:hover {
+    color: whitesmoke;
+  }
+}
+
+.three {
+  // background-color: rgb(187, 185, 185);
+  margin-top: 24em;
+  text-align: center;
+  padding-bottom: 10em;
+
+  #my-photo {
+    padding-right: -9em;
+    background-color: #949090;
+    // margin-left: 40em;
+    margin-top: 0em;
+    position: sticky;
+    z-index: 3;
+    width: 23%;
+  }
+  .box {
+    width: 90vw;
+    height: 100vh;
+    margin-top: -34em;
+    margin-left: 5em;
+    background-color: #949090;
+    opacity: 25%;
+    position: absolute;
+    z-index: 3;
+  }
+  .box1 {
+    width: 25vw;
+    height: 84vh;
+    margin-top: -33em;
+    margin-left: 35em;
+    border: 0.5em solid #949090;
+    position: absolute;
+    z-index: 3;
+    mix-blend-mode: difference;
+  }
+
+  h1 {
+    padding-top: 22px;
+    color: #cccccc;
+    text-transform: uppercase;
+    font-family: "Sen", sans-serif;
+    // font-family: "Prompt", sans-serif;
+    font-weight: lighter;
+    font-size: 75px;
+    color: #cccccc;
+  }
+  h3 {
+    position: relative;
+    z-index: 12;
+    text-align: left;
+    margin-top: 0.25em;
+    margin-left: 5.7em;
+    line-height: 73px;
+    font-family: "Prompt", sans-serif;
+    font-size: 80px;
+    color: #cccccc;
+    mix-blend-mode: difference;
+    transition: 0.5s ease-in-out;
+  }
+  h3:hover {
+    transform: scale(1.1);
+  }
+  .info {
+    text-align: center;
+    background-color: rgb(187, 185, 185);
+    padding: 2em;
+    color: #0f0c0c;
+    font-size: 25px;
+    padding-top: 12.5em;
+    margin-top: -11.5em;
+    padding-left: 15em;
+    padding-right: 14em;
+    font-family: "Roboto", sans-serif;
+    line-height: 32px;
+    font-weight: bold;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+.four {
+  background-color: rgb(187, 185, 185);
+  margin-top: -13em;
+  padding-top: 15em;
+  // padding-bottom: 16em;
+
+  .lang {
+    position: relative;
+    z-index: 33;
+    width: 50%;
+    padding: 0em 3em;
+    margin-top: -7em;
+    position: absolute;
+    transform: translate(70%, 25%);
+  }
+
+  h1 {
+    text-align: left;
+    border: 0.5rem solid rgb(8, 9, 14);
+    margin-right: 9.8em;
+    color: rgb(8, 9, 14);
+    padding: 13px 13px 13px 13px;
+    font-size: 90px;
+    font-family: "Prompt", sans-serif;
+    // font-size: 85px;
+    margin-top: -1.3em;
+    margin-left: 0.5em;
+  }
+  h1:hover {
+    color: rgb(102, 102, 102);
+    background-color: rgb(8, 9, 14);
+  }
+  .lang-info {
+    color: rgb(24, 26, 41);
+    font-size: 50px;
+    font-family: "Prompt", sans-serif;
+    font-weight: bold;
+    margin-left: 1.2em;
+    margin-right: 12em;
+    margin-top: 5em;
+    transform: translate(3%, 36.5%);
+    line-height: 50px;
+    span {
+      color: rgb(187, 185, 185);
+    }
+  }
+  .skillbox {
+    box-sizing: border-box;
+    width: 100%;
+
+    margin: 20px 0;
+  }
+  .skillbox p {
+    color: rgb(24, 26, 41);
+    margin: 0 0 10px;
+    font-family: "roboto";
+    font-size: 25px;
+    margin-bottom: 0em;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+  }
+  .skillbox p:nth-child(2) {
+    float: right;
+    position: relative;
+    top: -30px;
+  }
+  .skillbox p:hover {
+    transform: scale(1.03);
+  }
+
+  .skill {
+    padding-top: 3px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #3d3c3c;
+  }
+  .skill_level {
+    background: rgb(13, 15, 20);
+    width: 100%;
+    height: 22px;
+    animation: move 4.25s cubic-bezier(0.17, 0.67, 0, 1);
+  }
+  .skill_level:hover {
+    background-color: rgb(111, 126, 173);
+  }
+  .skill_level::before {
+    position: absolute;
+    top: -250px;
+    left: -350px;
+    content: " ";
+    transform: rotate(30deg);
+  }
+  .skill_level::after {
+    position: absolute;
+    top: -250px;
+    left: -350px;
+    content: " ";
+    transform: rotate(30deg);
+  }
+  @keyframes move {
+    0% {
+      width: 0%;
+      opacity: 0%;
+      background-color: rgb(173, 173, 175);
+    }
+    50% {
+      background-color: rgb(239, 240, 245);
+    }
+    100% {
+      max-width: 100%;
+      opacity: 1s;
+    }
+  }
+}
+.bargraph {
+  display: none;
+}
+.bargraph.active {
+  display: block;
+}
+
+.five {
+  h1 {
+    text-align: right;
+    border: 0.5rem solid rgb(187, 185, 185);
+    margin-left: 12.8em;
+    margin-right: 1em;
+    color: rgb(187, 185, 185);
+    padding: 13px 13px 13px 13px;
+    font-size: 90px;
+    font-family: "Prompt", sans-serif;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+    mix-blend-mode: difference;
+  }
+  h1:hover {
+    background-color: rgb(187, 185, 185);
+    color: black;
+  }
+  .lang {
+    position: relative;
+    z-index: 33;
+    width: 20%;
+    padding: 0em 13em;
+    margin-left: 67px;
+    margin-top: -12em;
+    transform: rotate(-90deg);
+  }
+
+  .skillbox {
+    box-sizing: border-box;
+    width: 100%;
+
+    margin: 2px 0;
+  }
+  .skillbox p {
+    color: rgb(173, 173, 175);
+    margin: 0 0 10px;
+    transform: rotate(90deg);
+    font-family: "roboto";
+    font-size: 25px;
+    position: relative;
+    font-weight: bolder;
+    z-index: 99;
+    transition: 0.5s ease-in-out;
+  }
+  .skillbox p:nth-child(1) {
+    margin-left: -25em;
+    // margin-top: -2em;
+    transform: translate(50%, 120%);
+  }
+
+  .skillbox p:nth-child(2) {
+    float: left;
+    position: relative;
+    top: 1.7em;
+    right: -12em;
+    transform: rotate(90deg);
+  }
+  .skillbox p:hover {
+    font-size: 30px;
+  }
+
+  .skill {
+    // padding-top: 3px;
+    height: 30px;
+    box-sizing: border-box;
+    // border: 1px solid #3d3c3c;
+    padding-bottom: 3em;
+    margin-top: 2em;
+    margin-left: -9em;
+  }
+  .skill_level {
+    background-color: rgb(187, 185, 185);
+    transform: rotate(0deg);
+    width: 100%;
+    height: 22px;
+    padding-bottom: 3em;
+    margin-bottom: 3em;
+    animation: move 6.25s cubic-bezier(0.17, 0.67, 0, 1);
+  }
+  .skill_level:hover {
+    background-color: #f2aa4c;
+  }
+  .skill_level::before {
+    position: absolute;
+    top: -250px;
+    left: -350px;
+    content: " ";
+    transform: rotate(30deg);
+  }
+  .skill_level::after {
+    position: absolute;
+    top: -250px;
+    // left: 350px;
+    content: " ";
+    transform: rotate(30deg);
+  }
+  @keyframes move {
+    0% {
+      width: 0%;
+      opacity: 0%;
+      background-color: rgb(173, 173, 175);
+    }
+    50% {
+      background-color: #e7d27c;
+    }
+    100% {
+      max-width: 100%;
+      opacity: 1s;
+    }
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;600&display=swap");
+.six {
+  margin-top: 5em;
+  text-align: left;
+  .container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 2px;
+  }
+
+  .image a {
+    display: inline-block;
+    overflow: hidden;
+  }
+  .imgs {
+    margin-left: 1.5em;
+  }
+  h1 {
+    color: rgb(214, 211, 211);
+    font-family: "Prompt", sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 90px;
+    transform: translate(15%, 3%);
+    text-align: center;
+    padding-top: 3em;
+  }
+  .tag {
+    text-align: left;
+    color: rgb(214, 211, 211);
+    font-family: "Prompt", sans-serif;
+    transform: translate(-90%, 30%);
+    font-size: 45px;
+  }
+
+  .image-title {
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    font-family: raleway;
+    display: table;
+    background: white;
+    color: black;
+
+    opacity: 0;
+    z-index: 1;
+    transition: 0.25s ease-in-out;
+  }
+
+  .image {
+    opacity: 80%;
+  }
+  .image:hover {
+    opacity: 1;
+  }
+  .image:hover h1 {
+    opacity: 0.6;
+  }
+}
+
+.seven {
+  text-align: center;
+  a {
+    position: relative;
+    z-index: 99;
+    color: #f5ecec;
+    padding-top: 2em;
+    font-family: "ROBOTO";
+    font-weight: lighter;
+    font-size: 50px;
+  }
+  .box {
+    position: relative;
+    border: 1em solid #f5ecec;
+    mix-blend-mode: difference;
+
+    width: 20em;
+    height: 30em;
+    transform: translate(165%, 50%);
+  }
+}
+
+.eight {
+  text-align: center;
+  background-color: #f5ecec;
+  padding-bottom: 0.5em;
+  h1 {
+    padding-top: 2em;
+    font-family: "ROBOTO";
+    font-weight: lighter;
+    font-size: 85px;
+    // margin-bottom: -3em;
+  }
+  a {
+    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco,
+      "Bitstream Vera Sans Mono", monospace;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 45px;
+  }
+  a.inst {
+    // margin-left: -3em;
+    transform: translateY(-96%);
+  }
+  a.link {
+    margin-left: 3em;
+    margin-top: -20em;
+  }
+  p {
+    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco,
+      "Bitstream Vera Sans Mono", monospace;
+    font-size: 20px;
+  }
+}
