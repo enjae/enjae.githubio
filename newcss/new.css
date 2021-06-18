@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;600&display=swap");
 body {
-  background-color: #051729;
+  background-color: black;
 }
 
 .reveal {
@@ -25,25 +25,29 @@ body {
 }
 
 .one h1 {
+  text-align: left;
   margin-top: 2em;
   color: #ece9e9;
-  font-family: "Poiret One", cursive;
+  font-family: "Prompt", sans-serif;
   letter-spacing: 10px;
   font-weight: bolder;
-  font-size: 120px;
+  font-size: 150px;
 }
 
 .one a.sub-t {
   text-decoration: none;
-  color: #08090e;
+  color: #d4d1d1;
 }
 
 .one .title {
-  text-align: center;
-  background-color: #d4d1d1;
+  position: relative;
+  top: -7.5em;
+  left: 8px;
+  text-align: left;
+  color: #d4d1d1;
   letter-spacing: 0.4px;
   font-family: "Poiret One";
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .one .title span {
@@ -51,11 +55,13 @@ body {
   font-family: "Rochester", cursive;
 }
 
-.one .title:hover {
-  background: whitesmoke;
+.one .a.sub-t :hover {
+  color: black;
+  background: #5f5d5d;
 }
 
 .one a.cont {
+  text-align: center;
   color: #d4d1d1;
   font-family: "Poiret One";
   font-weight: bold;
@@ -101,15 +107,12 @@ body {
   font-size: 25px;
 }
 
-.two .icons {
-  margin: 14em;
-}
-
 .two a.about-me,
 .two .git,
 .two .illu,
 .two .merch {
-  text-align: left;
+  width: 50%;
+  text-align: start;
   text-decoration: none;
   color: #cccccc;
   font-size: 90px;
@@ -133,16 +136,6 @@ body {
   width: 30%;
 }
 
-.three .box {
-  -webkit-transform: translate(0%, -80%);
-          transform: translate(0%, -80%);
-  width: 100%;
-  height: 60%;
-  position: absolute;
-  background-color: #949090;
-  opacity: 25%;
-}
-
 .three h1 {
   padding-top: 22px;
   color: #cccccc;
@@ -153,12 +146,17 @@ body {
   color: #cccccc;
 }
 
+.three .name {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .three h3 {
   position: relative;
   z-index: 12;
-  text-align: left;
+  text-align: start;
   margin-top: 0em;
-  margin-left: 5.7em;
   line-height: 73px;
   font-family: "Prompt", sans-serif;
   font-size: 80px;
@@ -166,11 +164,6 @@ body {
   mix-blend-mode: difference;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-}
-
-.three h3:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 .three .info {
@@ -181,8 +174,6 @@ body {
   font-size: 25px;
   padding-top: 15em;
   margin-top: -16em;
-  padding-left: 15em;
-  padding-right: 14em;
   font-family: "Roboto", sans-serif;
   line-height: 32px;
   font-weight: bold;
@@ -472,19 +463,13 @@ body {
   text-align: left;
 }
 
-.six .container3 {
+.six .container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-  grid-gap: 2px;
-}
-
-.six .image a {
-  display: inline-block;
-  overflow: hidden;
 }
 
 .six .imgs {
@@ -555,12 +540,13 @@ body {
 
 .seven .box {
   position: relative;
+  top: 15em;
   border: 1em solid #f5ecec;
   mix-blend-mode: difference;
+  margin-left: auto;
+  margin-right: auto;
   width: 20em;
   height: 30em;
-  -webkit-transform: translate(165%, 50%);
-          transform: translate(165%, 50%);
 }
 
 .eight {
@@ -600,6 +586,12 @@ body {
 }
 
 @media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .one .h1 {
+    font-size: 100px;
+  }
+  .one .title {
+    text-align: center;
+  }
   .two .icons {
     margin: 2em;
   }
@@ -615,7 +607,6 @@ body {
     font-weight: bold;
   }
   .three #my-photo {
-    padding-right: -9em;
     background-color: #949090;
     margin-top: 0em;
     width: 70%;
@@ -690,7 +681,7 @@ body {
   .five .skill_level {
     height: 4px;
   }
-  .six .container3 {
+  .six .container {
     display: -ms-inline-grid;
     display: inline-grid;
     -ms-grid-columns: 1fr;
@@ -704,12 +695,8 @@ body {
   }
   .six h1 {
     font-size: 70px;
-    -webkit-transform: translate(1%, 3%);
-            transform: translate(1%, 3%);
-  }
-  .seven .box {
-    -webkit-transform: translate(17%, 50%);
-            transform: translate(17%, 50%);
+    -webkit-transform: translate(-5%, 3%);
+            transform: translate(-5%, 3%);
   }
   .eight h1 {
     font-size: 70px;
