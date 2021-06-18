@@ -1,6 +1,5 @@
 body {
-  margin: 0%;
-  background-color: rgb(0, 10, 20);
+  background-color: rgb(5, 23, 41);
 }
 .reveal {
   position: relative;
@@ -12,25 +11,18 @@ body {
   opacity: 1;
 }
 
-@font-face {
-  font-family: Poiret One;
-  src: url(fonts/PoiretOne-Regular.ttf);
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");
 .one {
   text-align: center;
-  .text {
-    text-align: center;
-    position: absolute;
-    border: 3px solid #cccccc;
+  h1 {
+    margin-top: 2em;
     color: #ece9e9;
-    font-family: Poiret One;
+    font-family: "Poiret One", cursive;
+    // font-family: "Prompt", sans-serif;
+    letter-spacing: 10px;
     font-weight: bolder;
-    font-size: 95px;
-    transform: translate(95%, 30%);
-    padding: 0 62px 0px 62px;
-    // opacity: 90%;
+    font-size: 120px;
   }
 
   a.sub-t {
@@ -38,20 +30,13 @@ body {
     color: rgb(8, 9, 14);
   }
   .title {
-    // border: 1px solid black;
-    position: relative;
-    z-index: 999;
-    transform: translate(7%, 1670%);
     text-align: center;
     background-color: #d4d1d1;
-    margin-left: 22em;
-    margin-right: 23em;
     letter-spacing: 0.4px;
     font-family: "Poiret One";
-    font-size: 25px;
+    font-size: 20px;
     span {
       font-size: 26px;
-      // font-family: "Rochester", cursive;
       font-family: "Rochester", cursive;
     }
   }
@@ -60,80 +45,73 @@ body {
   }
 
   a.cont {
-    position: absolute;
-    z-index: 999;
     color: #d4d1d1;
     font-family: "Poiret One";
     font-weight: bold;
     font-size: 20px;
-    margin-bottom: 13em;
-    margin-left: -2.7em;
-    margin-top: -0.5em;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-decoration: none;
+    text-decoration: dashed;
   }
 
-  .bgvideo {
-    margin-top: -10em;
-    width: 100%;
-    z-index: -3;
-    background-attachment: fixed;
-    background-repeat: repeat;
-  }
-  .planet1 {
-    position: absolute;
-    padding-top: -82em;
-    transform: translate(1710%, 94%);
-    width: 04vw;
-    opacity: 85%;
-    mix-blend-mode: screen;
-    animation: fl1 895s infinite linear;
-  }
-  .planet2 {
-    margin-top: -33em;
-    transform: translate(210%, 124%);
-    width: 30vw;
-    opacity: 85%;
-    mix-blend-mode: screen;
-    animation: fl1 895s infinite linear;
-  }
-  .planet3 {
-    margin-top: -33em;
-    transform: translate(-200%, 174%);
-    width: 10vw;
-    animation: fl1 895s linear;
-  }
-  .planet4 {
-    margin-top: -33em;
-    transform: translate(-350%, 174%);
-    width: 5vw;
-    opacity: 85%;
-    mix-blend-mode: screen;
-    animation: fl1 895s infinite linear;
-  }
-  .planet5 {
-    margin-top: -33em;
-    transform: translate(-1600%, 874%);
-    width: 3vw;
-    opacity: 85%;
-    mix-blend-mode: screen;
-    animation: fl1 895s infinite linear;
-  }
-  .planet6 {
-    margin-top: -83em;
-    transform: translate(-4000%, 2574%);
-    width: 1vw;
-    opacity: 85%;
-    mix-blend-mode: screen;
-    animation: fl1 895s infinite linear;
-  }
+  //   .bgvideo {
+  //     margin-top: -10em;
+  //     width: 100%;
+  //     z-index: -3;
+  //     background-attachment: fixed;
+  //     background-repeat: repeat;
+  //   }
+  //   .planet1 {
+  //     position: absolute;
+  //     padding-top: -82em;
+  //     transform: translate(1710%, 94%);
+  //     width: 04vw;
+  //     opacity: 85%;
+  //     mix-blend-mode: screen;
+  //     animation: fl1 895s infinite linear;
+  //   }
+  //   .planet2 {
+  //     margin-top: -33em;
+  //     transform: translate(210%, 124%);
+  //     width: 30vw;
+  //     opacity: 85%;
+  //     mix-blend-mode: screen;
+  //     animation: fl1 895s infinite linear;
+  //   }
+  //   .planet3 {
+  //     margin-top: -33em;
+  //     transform: translate(-200%, 174%);
+  //     width: 10vw;
+  //     animation: fl1 895s linear;
+  //   }
+  //   .planet4 {
+  //     margin-top: -33em;
+  //     transform: translate(-350%, 174%);
+  //     width: 5vw;
+  //     opacity: 85%;
+  //     mix-blend-mode: screen;
+  //     animation: fl1 895s infinite linear;
+  //   }
+  //   .planet5 {
+  //     margin-top: -33em;
+  //     transform: translate(-1600%, 874%);
+  //     width: 3vw;
+  //     opacity: 85%;
+  //     mix-blend-mode: screen;
+  //     animation: fl1 895s infinite linear;
+  //   }
+  //   .planet6 {
+  //     margin-top: -83em;
+  //     transform: translate(-4000%, 2574%);
+  //     width: 1vw;
+  //     opacity: 85%;
+  //     mix-blend-mode: screen;
+  //     animation: fl1 895s infinite linear;
+  //   }
 
-  @keyframes fl1 {
-    70% {
-      transform: rotate(-1deg);
-    }
-  }
+  //   @keyframes fl1 {
+  //     70% {
+  //       transform: rotate(-1deg);
+  //     }
+  //   }
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
@@ -141,7 +119,6 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 .two {
   margin-top: 10em;
-  margin-left: 14em;
 
   li {
     list-style: none;
@@ -151,7 +128,6 @@ body {
     z-index: 999;
     color: #cccccc;
     font-family: "Poiret One";
-    // margin-left: 495em;
     font-weight: bold;
     height: 100px;
     top: 0.5em;
@@ -168,13 +144,16 @@ body {
     text-decoration: none;
     margin-bottom: -11em;
     font-weight: bolder;
-    // margin-left: 495em;
     height: 100px;
     top: 0.5em;
     left: 1em;
     mix-blend-mode: difference;
     font-size: 25px;
   }
+  .icons {
+    margin: 14em;
+  }
+
   a.about-me,
   .git,
   .illu,
@@ -185,8 +164,6 @@ body {
     font-size: 90px;
     font-family: "Prompt", sans-serif;
     font-weight: bold;
-    transform-origin: left;
-    transform: scaleX(0);
   }
   a:hover {
     color: whitesmoke;
@@ -195,38 +172,24 @@ body {
 
 .three {
   // background-color: rgb(187, 185, 185);
-  margin-top: 24em;
+  margin-top: 15em;
   text-align: center;
-  padding-bottom: 10em;
+  // padding-bottom: 10em;/
 
   #my-photo {
     padding-right: -9em;
     background-color: #949090;
     // margin-left: 40em;
     margin-top: 0em;
-    position: sticky;
-    z-index: 3;
-    width: 23%;
+    width: 30%;
   }
   .box {
-    width: 90vw;
-    height: 100vh;
-    margin-top: -34em;
-    margin-left: 5em;
+    transform: translate(0%, -80%);
+    width: 100%;
+    height: 60%;
+    position: absolute;
     background-color: #949090;
     opacity: 25%;
-    position: absolute;
-    z-index: 3;
-  }
-  .box1 {
-    width: 25vw;
-    height: 84vh;
-    margin-top: -33em;
-    margin-left: 35em;
-    border: 0.5em solid #949090;
-    position: absolute;
-    z-index: 3;
-    mix-blend-mode: difference;
   }
 
   h1 {
@@ -243,7 +206,7 @@ body {
     position: relative;
     z-index: 12;
     text-align: left;
-    margin-top: 0.25em;
+    margin-top: 0em;
     margin-left: 5.7em;
     line-height: 73px;
     font-family: "Prompt", sans-serif;
@@ -260,9 +223,10 @@ body {
     background-color: rgb(187, 185, 185);
     padding: 2em;
     color: #0f0c0c;
+    // color: white;
     font-size: 25px;
-    padding-top: 12.5em;
-    margin-top: -11.5em;
+    padding-top: 15em;
+    margin-top: -16em;
     padding-left: 15em;
     padding-right: 14em;
     font-family: "Roboto", sans-serif;
@@ -274,7 +238,7 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
 .four {
   background-color: rgb(187, 185, 185);
-  margin-top: -13em;
+  margin-top: -5em;
   padding-top: 15em;
   // padding-bottom: 16em;
 
@@ -282,30 +246,30 @@ body {
     position: relative;
     z-index: 33;
     width: 50%;
-    padding: 0em 3em;
+    // padding: 0em 3em;
     margin-top: -7em;
     position: absolute;
-    transform: translate(70%, 25%);
+    transform: translate(70%, 35%);
   }
 
   h1 {
-    text-align: left;
-    border: 0.5rem solid rgb(8, 9, 14);
-    margin-right: 9.8em;
+    text-align: center;
+
     color: rgb(8, 9, 14);
-    padding: 13px 13px 13px 13px;
     font-size: 90px;
     font-family: "Prompt", sans-serif;
     // font-size: 85px;
     margin-top: -1.3em;
-    margin-left: 0.5em;
+  }
+  .h1l {
+    border: 0.5rem solid rgb(8, 9, 14);
   }
   h1:hover {
     color: rgb(102, 102, 102);
     background-color: rgb(8, 9, 14);
   }
   .lang-info {
-    color: rgb(24, 26, 41);
+    color: rgb(187, 185, 185);
     font-size: 50px;
     font-family: "Prompt", sans-serif;
     font-weight: bold;
@@ -314,6 +278,7 @@ body {
     margin-top: 5em;
     transform: translate(3%, 36.5%);
     line-height: 50px;
+    mix-blend-mode: difference;
     span {
       color: rgb(187, 185, 185);
     }
@@ -395,21 +360,17 @@ body {
 
 .five {
   h1 {
-    text-align: right;
-    border: 0.5rem solid rgb(187, 185, 185);
-    margin-left: 12.8em;
-    margin-right: 1em;
+    text-align: center;
     color: rgb(187, 185, 185);
-    padding: 13px 13px 13px 13px;
     font-size: 90px;
     font-family: "Prompt", sans-serif;
-    margin-top: 0.5em;
-    margin-right: 0.5em;
+    margin-top: 3em;
+    margin-bottom: 2em;
     mix-blend-mode: difference;
   }
   h1:hover {
     background-color: rgb(187, 185, 185);
-    color: black;
+    color: rgb(8, 9, 14);
   }
   .lang {
     position: relative;
@@ -424,7 +385,6 @@ body {
   .skillbox {
     box-sizing: border-box;
     width: 100%;
-
     margin: 2px 0;
   }
   .skillbox p {
@@ -621,5 +581,138 @@ body {
     font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco,
       "Bitstream Vera Sans Mono", monospace;
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .two {
+    .icons {
+      margin: 2em;
+    }
+    a.about-me,
+    .git,
+    .illu,
+    .merch {
+      text-align: left;
+      text-decoration: none;
+      color: #cccccc;
+      font-size: 50px;
+      font-family: "Prompt", sans-serif;
+      font-weight: bold;
+    }
+  }
+
+  .three {
+    #my-photo {
+      padding-right: -9em;
+      background-color: #949090;
+      // margin-left: 40em;
+      margin-top: 0em;
+      width: 70%;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    .box {
+      height: 90vh;
+    }
+    h3 {
+      margin-left: 1em;
+      line-height: 53px;
+      font-size: 50px;
+    }
+    .info {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  }
+
+  .four {
+    padding-bottom: 9em;
+    h1 {
+      font-size: 70px;
+    }
+
+    .lang {
+      transform: translate(50%, 25%);
+    }
+
+    .lang-info {
+      text-align: center;
+      font-size: 40px;
+      margin-right: 0em;
+
+      line-height: 40px;
+      transform: translate(-3%, 95%);
+    }
+  }
+
+  .five {
+    margin-top: 15em;
+    width: 50vw;
+
+    .lang {
+      transform: rotate(0deg);
+      margin-left: 0px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 70px;
+      margin-bottom: 3em;
+    }
+
+    .skillbox p {
+      color: rgb(173, 173, 175);
+      transform: rotate(0deg);
+      font-family: "roboto";
+      font-size: 15px;
+      font-weight: bolder;
+      z-index: 99;
+    }
+    .skillbox p:nth-child(2) {
+      float: left;
+      position: relative;
+      top: 2em;
+      right: -8em;
+      transform: rotate(0deg);
+    }
+    .skillbox p:hover {
+      font-size: 15px;
+    }
+
+    .skill_level {
+      height: 4px;
+    }
+  }
+
+  .six {
+    .container3 {
+      display: inline-grid;
+      grid-template-columns: 1fr;
+    }
+    .imgs {
+      margin-left: 2em;
+    }
+
+    .tag {
+      display: none;
+    }
+    h1 {
+      font-size: 70px;
+      transform: translate(1%, 3%);
+    }
+  }
+
+  .seven {
+    .box {
+      transform: translate(17%, 50%);
+    }
+  }
+
+  .eight {
+    h1 {
+      font-size: 70px;
+      margin-top: 1em;
+    }
   }
 }
