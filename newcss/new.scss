@@ -1,5 +1,6 @@
 body {
   background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
 }
 .reveal {
   position: relative;
@@ -571,10 +572,10 @@ body {
     // h3:hover {
     //   transform: scale(1);
     // }
-    .info {
-      padding-left: 1em;
-      padding-right: 1em;
-    }
+    // .info {
+    //   padding-left: 1em;
+    //   padding-right: 1em;
+    // }
   }
 
   .four {
