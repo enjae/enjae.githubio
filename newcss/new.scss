@@ -492,6 +492,7 @@ body {
   .image:hover h1 {
     opacity: 0.6;
   }
+  overflow-x: hidden;
 }
 
 .seven {
@@ -505,9 +506,13 @@ body {
     font-weight: lighter;
     font-size: 50px;
   }
+  .resume {
+    margin-top: 70%;
+  }
+
   .box {
     position: relative;
-    z-index: 999;
+    z-index: 90;
     top: 15em;
     border: 1em solid #f5ecec;
     mix-blend-mode: difference;
@@ -555,7 +560,7 @@ body {
   footer {
     padding: 0.5em;
     background-color: black;
-    color: blanchedalmond;
+    color: #f5ecec;
   }
 }
 
@@ -572,8 +577,12 @@ body {
       color: #d4d1d1;
       font-family: "Poiret One";
       font-weight: bold;
-      font-size: 20px;
+      font-size: 30px;
       text-decoration: none;
+    }
+    .home,
+    .enjae {
+      border: 2px solid aliceblue;
     }
     .h1 {
       font-size: 100px;
@@ -761,6 +770,14 @@ body {
       left: 0;
       right: 0;
     }
+    .resume {
+      margin-top: 80%;
+    }
+    .box {
+      position: relative;
+      z-index: 90;
+      margin-bottom: 20%;
+    }
   }
 
   .eight {
@@ -781,6 +798,10 @@ body {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  a.cont {
+    font-size: 20px;
+  }
+
   .three {
     .container {
       max-width: 1274px;
